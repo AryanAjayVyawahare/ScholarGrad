@@ -1,44 +1,44 @@
 export const homeAbout = [
   {
     id: 1,
-    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "https://img.icons8.com/dotty/80/000000/ophthalmology.png",
+    title: "VISION",
+    desc: "India’s largest scholarship network with the vision to make quality education accessible for all students of India.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "https://img.icons8.com/ios/50/000000/goal.png",
+    title: "MISSION",
+    desc: " Our Mission is to honor hard work and community service, to offer inspiration, and share the belief that 'The Journey is the Reward'.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "https://img.icons8.com/external-outline-geotatah/64/000000/external-ethic-refugee-crisis-outline-geotatah.png",
+    title: "VALUES",
+    desc: "  To simplify scholarship accessibility for students and disbursement process for providers.Honesty | Integrity | Transparency  .",
   },
 ]
 export const awrapper = [
   {
     cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "3,000",
-    title: "SUCCESS STORIES",
+    data: "85K",
+    title: "STUDENTS HELPED",
   },
 
   {
     cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "320",
-    title: "TRUSTED TUTORS",
+    data: "Rs 45Cr",
+    title: "SCHOLARSHIP DISBURSED",
   },
   {
     cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-    data: "1,000",
-    title: "SCHEDULES",
+    data: "45,56,201",
+    title: "STUDENT CONNECTED",
   },
   {
     cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
-    title: "COURSES",
+    data: "166",
+    title: "INSTITUTES REGISTERED",
   },
 ]
 export const coursesCard = [
@@ -392,23 +392,23 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    name: "COLE PIERUCKI",
+    post: "ROBERT SAFFORD SCHOLARSHIP OF HONOR",
+    desc: " I am extremely grateful to have been awarded with the Robert Safford Scholarship.  It means a lot to me that the Brian LaViolette Foundation believes in me as a person and as a student as I pursue my dreams.",
+    cover: "./images/testo/b.jpg",
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
+    name: "JESSICA CAUSEY ",
+    post: "ANDREW BROWNFIELD SCHOLARSHIP OF HONOR",
+    desc: "This scholarship helps give me the push and motivation I need to move forward with a positive attitude. I am grateful for the opportunity to receive a scholarship, and I hope it means as much to you as it does for me!",
+    cover: "./images/testo/a.jpeg",
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
+    name: "EVAN KRNARICH",
+    post: "BRENT VROMAN SCHOLARSHIP OF HONOR",
+    desc: "Nearing the end of the school year, I was looking at different military options because I knew I couldn’t really afford college.  But after receiving the Brent Vroman Scholarship of Honor, I knew I was doing botH.",
+    cover: "./images/testo/c.jpg",
   },
 ]
