@@ -44,10 +44,10 @@ const CoursesCard = () => {
               </div>
               <div className='price'>
                 <h3>
-                  {val.priceAll} / {val.pricePer}
+                  {val.priceAll}  {val.pricePer}
                 </h3>
               </div>
-              <button className='outline-btn'>ENROLL NOW !</button>
+              <button className='outline-btn'>Apply Now</button>
             </div>
           ))}
         </div>
