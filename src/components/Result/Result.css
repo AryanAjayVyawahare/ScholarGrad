@@ -1,0 +1,62 @@
+.contentResult input{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  height: 30px;
+
+}
+.resultmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 1rem;
+
+}
+.marque{
+    margin: 1rem;
+    color: red;
+}
+.notfound{
+    margin: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.resultmain span{
+    font-size: x-large;
+}
+.contentResult img{
+ width: 1.9rem;
+ height: 1.9rem;
+ margin-left: 0.9rem;
+ cursor: pointer;
+ margin-top: 0.2rem;
+}
+.contentResult{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+    padding: 1rem;
+}
+.foundcontent{
+    margin: 2rem;
+    padding: 1rem;
+}
+.foundcontent table,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+.foundcontent td{
+    padding: 1rem;
+    font-style: italic;
+}
+

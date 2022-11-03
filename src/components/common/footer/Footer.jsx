@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from "react-router-dom"
 import { blog } from "../../../dummydata"
 import "./footer.css"
 
@@ -8,7 +9,7 @@ const Footer = () => {
       <section className='newletter'>
         <div className='container flexSB'>
           <div className='left row'>
-            <h1>Scholar - Stay tune and get the latest update</h1>
+            <h1>Scholargrad - Stay tune and get the latest update</h1>
             <span>Far far away, behind the word mountains</span>
           </div>
           <div className='right row'>
@@ -20,9 +21,9 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>ACADEMIA</h1>
+            <h1>SCHOLARGRAD</h1>
             <span>ONLINE EDUCATION & LEARNING</span>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <p>A Place which helps you to complete your Educational dreams</p>
 
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-twitter icon'></i>
@@ -31,26 +32,21 @@ const Footer = () => {
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
-              <li>Contact us</li>
+            <NavLink to='/' style={{color:'black'}}> <li> Home</li></NavLink>
+             <NavLink to='/about' style={{color:'black'}}> <li>About Us</li></NavLink>
+             <NavLink to='/pricing' style={{color:'black'}}> <li>Pricing</li> </NavLink>
+            <NavLink to='/courses' style={{color:'black'}}>  <li>Courses</li> </NavLink>
+             <NavLink to='/journal' style={{color:'black'}}> <li>Blog</li> </NavLink>
+           <NavLink to='/contact' style={{color:'black'}}> <li>Contact us</li>  </NavLink>
             </ul>
           </div>
           <div className='box link'>
-            <h3>Quick Links</h3>
-            <ul>
-              <li>Contact Us</li>
-              <li>Pricing</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
-            </ul>
+            
           </div>
           <div className='box'>
             <h3>Recent Post</h3>
             {blog.slice(0, 3).map((val) => (
+            <NavLink to='/journal' style={{color:'black'}}> 
               <div className='items flexSB'>
                 <div className='img'>
                   <img src={val.cover} alt='' />
@@ -67,6 +63,7 @@ const Footer = () => {
                   <h4>{val.title.slice(0, 40)}...</h4>
                 </div>
               </div>
+              </NavLink>
             ))}
           </div>
           <div className='box last'>
@@ -74,7 +71,7 @@ const Footer = () => {
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+                Shri Sant Gajanan Maharaj College of Engineering Shegoan
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
@@ -82,7 +79,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                info@yourdomain.com
+                admin@scholargrad.com
               </li>
             </ul>
           </div>
@@ -90,7 +87,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved | This template is made with <i className='fa fa-heart'></i> by GorkhCoder
+          Copyright ©2022 All rights reserved | Scholargrad <i className='fa fa-heart'></i> 
         </p>
       </div>
     </>

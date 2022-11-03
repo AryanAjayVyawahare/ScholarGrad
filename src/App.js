@@ -9,11 +9,13 @@ import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import Result from "./components/Result/Result"
 function App() {
   return (
     <>
       <BrowserRouter>
         <Header />
+        
          <Routes>         
           <Route exact path='' element={<Home/>} />
           <Route exact path='/about' element={<About/>} />
@@ -22,6 +24,7 @@ function App() {
           <Route exact path='/pricing' element={<Pricing/>} />
           <Route exact path='/journal' element={<Blog/>} />
           <Route exact path='/contact' element={<Contact/>} />
+          <Route exact path="/result" element={<Result/>}/>
           </Routes>
  
         <Footer />
