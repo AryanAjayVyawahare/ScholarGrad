@@ -9,7 +9,7 @@ const HAbout = () => {
     <>
       <section className='homeAbout'>
         <div className='container'>
-          <Heading subtitle='our courses' title='explore our popular online courses' />
+          <Heading subtitle='Making Education Affordable' title='FEATURED SCHOLARSHIP' />
 
           <div className='coursesCard'>
             {/* copy code form  coursesCard */}
@@ -51,10 +51,10 @@ const HAbout = () => {
                   </div>
                   <div className='price'>
                     <h3>
-                      {val.priceAll} / {val.pricePer}
+                      {val.priceAll} 
                     </h3>
                   </div>
-                  <button className='outline-btn'>ENROLL NOW !</button>
+                  <button className='outline-btn'>APPLY  NOW!!</button>
                 </div>
               ))}
             </div>
