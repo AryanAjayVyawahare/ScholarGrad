@@ -1,11 +1,13 @@
 import React from 'react'
 import { useState } from 'react'
 import Back from '../common/back/Back'
+import Header from '../common/header/Header'
 import './Result.css'
 const Result = () => {
     let [isResult, setIsResult] = useState(true);
     return (
         <>
+        <Header/>
             <Back title='Result' />
             <div className="marque">
                 <marquee direction="left">

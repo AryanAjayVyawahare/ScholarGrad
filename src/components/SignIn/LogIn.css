@@ -1,13 +1,13 @@
-body{
-	margin: 0;
-	padding: 0;
+
+.loginmain{
 	display: flex;
+	flex-direction: column;
 	justify-content:center;
 	align-items:center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: white;
-	/* background:url("./back.webp") no-repeat center/ cover; */
+	background: #0f9095;
+	background:url("./back.webp")  center/ cover;
 }
 .main{
 	width: 350px;
@@ -19,6 +19,7 @@ body{
 	
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
+	margin: 9rem;
 }
 #chk{
 	display: none;
@@ -51,6 +52,7 @@ input{
 	border-radius: 5px;
 }
 button{
+	padding: 0.5rem;
 	width: 60%;
 	height: 40px;
 	margin: 10px auto;

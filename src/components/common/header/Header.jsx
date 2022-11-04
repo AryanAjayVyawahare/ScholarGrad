@@ -1,11 +1,13 @@
 import React, { useState } from "react"
+import { useEffect } from "react"
 import { Link, NavLink } from "react-router-dom"
 import Head from "./Head"
 import "./header.css"
 
-const Header = () => {
+const Header = ({login}) => {
   const [click, setClick] = useState(false)
-
+  const[wantLogin,setWantLogin]=useState(true);
+  
   return (
     <>
       <Head />
@@ -16,13 +18,13 @@ const Header = () => {
               <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-              <NavLink to='/courses'>Scholarships</NavLink>
+              <NavLink to='/scholarship'>Scholarships</NavLink>
             </li>
             <li>
               <NavLink to='/about'>About</NavLink>
             </li>
             <li>
-              <NavLink to='/team'>Result</NavLink>
+              <NavLink to='/result'>Result</NavLink>
             </li>-
             <li>
               <NavLink to='/pricing'>FAQS</NavLink>
@@ -33,9 +35,13 @@ const Header = () => {
             <li>
               <Link to='/contact'>Contact</Link>
             </li>
-            <li>
-              <Link to='/result'>Result</Link>
+            
+          <li>
+              <Link to='/login'>Login</Link>
             </li>
+         
+
+          
           </ul>
           <div className='start'>
             {/* <div className='button'>GET CERTIFICATE</div> */}
