@@ -16,6 +16,19 @@
   color: grey;
   margin: 40px 0;
 }
+
+.price .items:hover{
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+}
+.price .items:hover p {
+  color: #fff;
+}
+.price .items:hover i {
+  background-color: #fff;
+  color: #1eb2a6;
+}
 /*--------------faq-------------*/
 .faq .container {
   max-width: 70%;

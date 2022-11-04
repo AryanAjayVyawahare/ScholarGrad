@@ -287,50 +287,55 @@ export const team = [
 ]
 export const price = [
   {
-    name: "BASIC PLAN",
-    price: "49K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Register and create your profile",
+    cover: "https://img.icons8.com/windows/100/000000/guest-male--v1.png",
+    // price: "Register an",
+    desc: "Sign up with facebook/Gmail/mobile number or email id. Verify your mobile number and email address. Complete your profile",
   },
   {
-    name: "BEGINNER PLAN",
-    price: "79K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Get notified for matching scholarship",
+    cover: "https://img.icons8.com/pastel-glyph/100/000000/appointment-reminders.png",
+    // price: "79K",
+    desc: "Based on your profile you will receive matching scholarship email/whatsapp/ notifications. Keep your profile updated to receive relevant notifications",
   },
   {
-    name: "PREMIUM PLAN",
-    price: "109k",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Become a scholar",
+    cover: "https://img.icons8.com/ios-filled/100/000000/student-male--v1.png",
+    // price: "109k",
+    desc: "If you selected as a scholar, you will receive notifications from our scholarship portal. You can also check results on scholarship results page",
   },
-  {
-    name: "ULTIMATE PLAN",
-    price: "149K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
+  // {
+  //   name: "ULTIMATE PLAN",
+  //   price: "149K",
+  //   desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+  // },
 ]
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Is there any annual income ceiling for candidates to be included under the scheme?",
+    desc: "Yes, only those candidates whose annual family income is less than or equal to Rs.4.5 lakh per annum are covered under ambit of the scheme.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Typically, what are the deadlines for scholarships?",
+    desc: "Prime months for scholarship deadlines are January through April for awards starting the following fall term. Keep in mind that many scholarships are only awarded once a year, so missing a deadline can mean missing out until the next cycle. Applications submitted past the deadline are usually not considered.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Can the students apply anytime during the year of admission?",
+    desc: "No. Students can only apply during a particular time period as displayed on the website",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Students who have enrolled through management are eligible for scholarship?",
+    desc: "No these categories of students will not be considered for award of scholarship.",
+  },
+  
+  
+  {
+    title: "What is your contact number for general queries?",
+    desc: "If you have any general query regarding the scholarships, you can email us at info@ScholarGrad.com. Also, you can submit your queries by visiting our contact us page.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-  {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "I forgot my ScholarGrad password. What should I do?",
+    desc: "If you do not remember your ScholarGrad login password, you can retrieve it by clicking on the 'Forgot Password' button. Once you will click on it, you can recover your password using your registered mobile number or email id. If you select the mobile number, you will receive an OTP on your number. Fill it and proceed to create a new password for the login. Furthermore, if you select the email id, you have to fill in your registered email id and a password reset link will be shared with you on your email address.",
   },
 ]
 export const blog = [
