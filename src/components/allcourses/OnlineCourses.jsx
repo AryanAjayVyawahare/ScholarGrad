@@ -6,7 +6,7 @@ import Heading from "../common/heading/Heading"
 const OnlineCourses = () => {
   return (
     <>
-      <section className='online'>
+      <section className='online' style={{marginBottom:'7rem'}}>
         <div className='container'>
           <Heading subtitle='COURSES' title='Scolarships for' />
           <div className='content grid3'>

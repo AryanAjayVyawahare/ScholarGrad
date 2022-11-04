@@ -7,7 +7,7 @@ import Awrapper from "./Awrapper"
 const AboutCard = () => {
   return (
     <>
-      <section className='aboutHome'>
+      <section className='aboutHome' style={{margin:'3rem',padding:'2rem'}}>
         <div className='container flexSB'>
           <div className='left row'>
             <img src='./images/about.webp' alt='' />
@@ -32,7 +32,9 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
+     <div className="wrapper" style={{marginTop:'2rem',marginBottom:'2rem'}}> 
       <Awrapper />
+      </div>
     </>
   )
 }

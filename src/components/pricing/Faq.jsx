@@ -16,9 +16,9 @@ const Faq = () => {
     <>
       <Heading subtitle='FAQS' title='Frequesntly Ask Question' />
       <section className='faq'>
-        <div className='container'>
+        <div className='container'style={{marginBottom:'7rem'}} >
           {faq.map((val, index) => (
-            <div className='box'>
+            <div className='box' style={{padding:'0.5rem',margin:'1rem'}}>
               <button className='accordion' onClick={() => toggle(index)} key={index}>
                 <h2>{val.title}</h2>
                 <span>{click === index ? <i className='fa fa-chevron-down'></i> : <i className='fa fa-chevron-right'></i>}</span>
