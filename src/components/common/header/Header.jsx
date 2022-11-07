@@ -6,8 +6,11 @@ import "./header.css"
 
 const Header = ({login}) => {
   const [click, setClick] = useState(false)
-  const[wantLogin,setWantLogin]=useState(true);
+  const[Login,setLogin]=useState(false);
   
+  useEffect(()=>{
+   setLogin(localStorage.getItem('login'));
+  },[])
   return (
     <>
       <Head />
@@ -37,7 +40,11 @@ const Header = ({login}) => {
             </li>
             
           <li>
+            { Login?
+            <>
+            </>:
               <Link to='/login'>Login</Link>
+            }
             </li>
          
 

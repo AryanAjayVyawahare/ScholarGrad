@@ -13,8 +13,7 @@ const Hero = () => {
             <p>Gateway to scholarship world</p>
             <div className='button'>
               
-              <button className='primary-btn' onClick={()=>{console.log("clicked");}}>SIGN UP<i className='fa fa-long-arrow-alt-right'></i> 
-              </button>
+              <button className='primary-btn' onClick={()=>{console.log("clicked");}}>SIGN UP<i className='fa fa-long-arrow-alt-right'/> </button>
              
                <button>LOG IN <i className='fa fa-long-arrow-alt-right'></i> 
               </button>
