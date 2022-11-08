@@ -175,72 +175,85 @@ export const online = [
     hoverCover: "https://img.icons8.com/ios-filled/344/student-center.png",
     courseName: "Scholarship for class 10th",
     course: "Apply now!",
+    url:"searchbystandard/PM"
   },
   {
     cover: "https://img.icons8.com/material-two-tone/344/school.png",
     hoverCover: "https://img.icons8.com/material-two-tone/344/school.png",
     courseName: "Upto Class 8",
     course: "Apply now!",
+    url:"searchbystandard/PM"
   },
   {
     cover: "https://img.icons8.com/ios-glyphs/344/knowledge-sharing.png",
     hoverCover: "https://img.icons8.com/ios-glyphs/344/knowledge-sharing.png",
     courseName: "Post Matric(Classes 9-10)",
     course: "Apply now!",
+    url:"searchbystandard/PM"
   },
   {
     cover: "https://img.icons8.com/ios-filled/2x/school.png",
     hoverCover: "https://img.icons8.com/ios-filled/344/school.png",
     courseName: "Post Matric (Classes 11-12)",
     course: "Apply now!",
+    url:"searchbystandard/PM"
   },
   {
     cover: "https://img.icons8.com/material-two-tone/344/student-female.png",
     hoverCover: "https://img.icons8.com/material-two-tone/344/student-female.png",
     courseName: "Graduation",
     course: "Apply now!",
+    url:"searchbystandard/UG"
   },
   {
     cover: "https://img.icons8.com/ios-filled/344/teaching.png",
     hoverCover: "https://img.icons8.com/ios-filled/344/teaching.png",
     courseName: "Engineering",
     course: "Apply now!",
+    url:"searchbystandard/UG"
   },
   {
     cover: "https://img.icons8.com/ios/344/maharashtra-state.png",
     hoverCover: "https://img.icons8.com/ios/344/maharashtra-state.png",
     courseName: "Maharashtra",
     course: "Apply now!",
+    url:"searchbystate/Maharashtra"
   },
   {
     cover: "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/344/external-delphi-wonder-of-the-world-vitaliy-gorbachev-lineal-vitaly-gorbachev.png",
     hoverCover: "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/344/external-delphi-wonder-of-the-world-vitaliy-gorbachev-lineal-vitaly-gorbachev.png",
     courseName: "Rajasthan",
     course: "Apply now!",
+    url:"searchbystate/Rajasthan"
+    
   },
   {
     cover: "https://img.icons8.com/fluency-systems-regular/344/akshardham.png",
     hoverCover:"https://img.icons8.com/fluency-systems-regular/344/akshardham.png",
     courseName: "Andhra Pradesh",
     course: "Apply now!",
+    url:"searchbystate/Andhra Pradesh"
   },
   {
     cover: "https://img.icons8.com/windows/344/red-fort.png",
     hoverCover: "https://img.icons8.com/windows/344/red-fort.png",
     courseName: "Gujarat",
     course: "Apply now!",
+    url:"searchbystate/Gujarat"
   },
   {
     cover: "https://img.icons8.com/ios-glyphs/344/red-fort.png",
     hoverCover:"https://img.icons8.com/ios-glyphs/344/red-fort.png",
     courseName: "Delhi",
     course: "Apply now!",
+    url:"searchbystate/Delhi"
   },
   {
     cover: "https://img.icons8.com/fluency-systems-filled/344/akshardham.png",
     hoverCover: "https://img.icons8.com/fluency-systems-filled/344/akshardham.png",
     courseName: "Himachal Pradesh",
     course: "Apply now!",
+    url:"searchbystate/Himachal Pradesh"
   },
 ]
 export const team = [

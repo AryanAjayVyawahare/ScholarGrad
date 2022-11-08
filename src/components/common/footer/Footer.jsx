@@ -1,9 +1,21 @@
-import React from "react"
+import axios from "axios"
+import React, { useState } from "react"
 import { NavLink } from "react-router-dom"
 import { blog } from "../../../dummydata"
 import "./footer.css"
 
 const Footer = () => {
+  const[email,setEmail]=useState();
+const emailADDCall =()=>{
+  axios.get(`http://localhost:8081/login/enablenotification/${email}`).then(res=>{
+    console.log(res.data);
+    alert("You will be notified nowonwards")
+    setEmail("")
+  }).catch(err=>{
+    console.log(err);
+    alert("Server Error")
+  })
+}
   return (
     <>
       <section className='newletter'>
@@ -13,8 +25,8 @@ const Footer = () => {
             <span>Don't miss the chance to become scholar</span>
           </div>
           <div className='right row'>
-            <input type='text' placeholder='Enter email address' />
-            <i className='fa fa-paper-plane'></i>
+            <input type='text' placeholder='Enter email address'value={email} onChange={(event)=>{setEmail(event.target.value)}}/>
+            <i className='fa fa-paper-plane' onClick={emailADDCall}></i>
           </div>
         </div>
       </section>
