@@ -12,6 +12,17 @@
   margin: 20px 0;
   transition: 0.5s;
 }
+.postblog{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+}
+.postbtn :hover{
+  background-color:#1eb2a6 ;
+  color: white;
+}
 .blog h1:hover {
   color: #1eb2a6;
   cursor: pointer;

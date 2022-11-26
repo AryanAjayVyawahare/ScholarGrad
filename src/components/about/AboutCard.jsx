@@ -7,13 +7,13 @@ import Awrapper from "./Awrapper"
 const AboutCard = () => {
   return (
     <>
-      <section className='aboutHome'>
+      <section className='aboutHome' style={{margin:'3rem',padding:'2rem'}}>
         <div className='container flexSB'>
           <div className='left row'>
             <img src='./images/about.webp' alt='' />
           </div>
           <div className='right row'>
-            <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />
+            <Heading subtitle='Connecting Scholarship Seekers with Scholarship Providers' title='ABOUT SCHOLARGRAD' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
@@ -32,7 +32,9 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
+     <div className="wrapper" style={{marginTop:'2rem',marginBottom:'2rem'}}> 
       <Awrapper />
+      </div>
     </>
   )
 }

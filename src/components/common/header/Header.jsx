@@ -1,11 +1,16 @@
 import React, { useState } from "react"
+import { useEffect } from "react"
 import { Link, NavLink } from "react-router-dom"
 import Head from "./Head"
 import "./header.css"
 
-const Header = () => {
+const Header = ({login}) => {
   const [click, setClick] = useState(false)
-
+  const[Login,setLogin]=useState(false);
+  
+  useEffect(()=>{
+   setLogin(localStorage.getItem('login'));
+  },[])
   return (
     <>
       <Head />
@@ -16,26 +21,39 @@ const Header = () => {
               <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-              <NavLink to='/courses'>All Courses</NavLink>
+              <NavLink to='/scholarship'>Scholarships</NavLink>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <NavLink to='/about'>About</NavLink>
             </li>
             <li>
-              <Link to='/team'>Team</Link>
+              <NavLink to='/result'>Result</NavLink>
+            </li>-
+            <li>
+              <NavLink to='/pricing'>FAQS</NavLink>
             </li>
             <li>
-              <Link to='/pricing'>Pricing</Link>
-            </li>
-            <li>
-              <Link to='/journal'>Journal</Link>
+              <NavLink to='/journal'>Journal</NavLink>
             </li>
             <li>
               <Link to='/contact'>Contact</Link>
             </li>
+            
+          <li>
+            { Login?
+            <>
+            </>:
+              <Link to='/login'>Login</Link>
+            }
+            </li>
+         
+
+          
           </ul>
           <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
+            {/* <div className='button'>GET CERTIFICATE</div> */}
+            <img src="" alt=""/>
+            
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
